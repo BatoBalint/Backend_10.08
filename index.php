@@ -20,7 +20,7 @@
     }
 
     public function getOrokbefogadva() {
-      return $orokbefogadva->format("c");
+      return $this->orokbefogadva->format('c');
     }
 
     public function __construct(string $_nev, string $_faj) {
